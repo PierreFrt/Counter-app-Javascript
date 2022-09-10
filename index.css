@@ -1,0 +1,69 @@
+body {
+    background-size: cover;
+    background: linear-gradient(to top, #909af3,#001aff);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight : bold;
+}
+
+#count-el {
+   /* display : inline;
+    border : 5px solid black;
+    padding : 10px;
+    border-radius: 10px; */
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white
+}
+#save-el {
+    color : white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s;
+
+}
+
+button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#increment-btn {
+    background: #0004ff ;
+}
+#decrement-btn {
+    background: #ff0000;
+}
+#reset-btn {
+    background: rgb(10, 133, 10);
+}
+#save-btn {
+    background: rgba(255, 231, 12, 0.849);
+}
+#save_restart-btn {
+    background: rgba(240, 120, 7, 0.849);
+}
+#reset_entries-btn {
+    background: rgba(229, 66, 235, 0.849);
+}
